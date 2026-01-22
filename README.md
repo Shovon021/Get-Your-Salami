@@ -6,75 +6,81 @@
 ![Release](https://img.shields.io/badge/Release-v1.0.0-brightgreen?style=for-the-badge)
 
 <div align="center">
-  <img src="assets/icon.png" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <img src="assets/icon.png" width="120" height="120" style="border-radius: 20px;">
   <h1>✨ Spin. Win. Celebrate. ✨</h1>
-  <p><i>A premium, high-thrill spinning wheel application built with Flutter. Experiece neon glows, 3D animations, and immersive audio.</i></p>
+  <p><i>A premium, high-thrill spinning wheel application built with Flutter.</i></p>
 </div>
 
 ---
 
-## 🎨 Features that WOW
+## 📸 Screenshots
 
-### 🎢 **High-Stakes Thrill**
-*   **12-Second Suspense Spin**: Each spin is a journey. Will you hit the jackpot?
-*   **Physics-Based Animation**: Smooth `CurvedAnimation` with ease-out physics.
-*   **Haptic Feedback**: Feel every tick and stop with integrated vibration.
-
-### 💎 **Glassmorphism UI**
-*   **Frosted Glass Elements**: Modern, translucent UI components with `BackdropFilter`.
-*   **Dynamic Backgrounds**: Animated glowing orbs that breathe and move.
-*   **Neon Aesthetics**: Rich gradients and deep colors for a premium look.
-
-### 🔊 **Immersive Audio**
-*   **3D Sound Mixing**: Separate audio channels for BGM, Ticks, Whooshes, and Wins.
-*   **Smart Audio Engine**: Non-blocking audio playback using `lowLatency` mode.
-*   **User Control**: Granular settings to toggle Music and SFX independently.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>🍃 Splash</b></td>
+      <td align="center"><b>🎡 Home</b></td>
+      <td align="center"><b>🏆 Win</b></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/splash.png" width="200"></td>
+      <td><img src="screenshots/home.png" width="200"></td>
+      <td><img src="screenshots/win.png" width="200"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>🔊 Audio Settings</b></td>
+      <td align="center"><b>🎨 Theme Picker</b></td>
+      <td align="center"><b></b></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/settings_audio.png" width="200"></td>
+      <td><img src="screenshots/settings_theme.png" width="200"></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## 📸 visual showcase
+## 🎨 Features
 
-| **Premium Splash** | **Neon Wheel** | **Glass Settings** |
-|:---:|:---:|:---:|
-| <div style="background: linear-gradient(45deg, #E8F5E9, #A5D6A7); padding: 20px; border-radius: 10px;"><b>🍃 Fresh & clean<br>3D Loading Bar</b></div> | <div style="background: linear-gradient(45deg, #1A237E, #FF00CC); padding: 20px; border-radius: 10px;"><b>🎡 Glowing Wheel<br>Pulsing Animation</b></div> | <div style="background: linear-gradient(45deg, #000000, #434343); padding: 20px; border-radius: 10px;"><b>⚙️ Frosted Glass<br>Blur Effects</b></div> |
+### 🎢 **High-Stakes Thrill**
+*   **12-Second Suspense Spin**
+*   **Physics-Based Animation** with ease-out curves
+*   **Haptic Feedback** on every tick
 
-*(Add your screenshots here)*
+### 💎 **Glassmorphism UI**
+*   **Frosted Glass Settings** with `BackdropFilter`
+*   **Animated Background Orbs**
+*   **Light & Fresh Color Themes**
+
+### 🔊 **Immersive Audio**
+*   **Separate Channels**: BGM, Tick, Whoosh, Win
+*   **Low Latency Playback**
+*   **User-Controlled Toggles**
 
 ---
 
 ## 🛠️ Tech Stack
 
-*   **Framework**: Flutter 3.x
-*   **Language**: Dart
-*   **State Management**: `setState` (Clean & Performant for this scale)
-*   **Animations**: `flutter_animate`, `curved_animation`
-*   **Audio**: `audioplayers` (with multi-context support)
-*   **Storage**: `shared_preferences` (for settings persistence)
+| Category | Technology |
+|---|---|
+| **Framework** | Flutter 3.x |
+| **Language** | Dart |
+| **Animations** | `flutter_animate` |
+| **Audio** | `audioplayers` |
+| **Storage** | `shared_preferences` |
 
 ---
 
-## 🚀 Installation
+## 🚀 Quick Start
 
-1.  **Clone the Repo**
-    ```bash
-    git clone https://github.com/Shovon021/Get-Your-Salami.git
-    cd Get-Your-Salami
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    flutter pub get
-    ```
-
-3.  **Run the App**
-    ```bash
-    flutter run
-    ```
-
-4.  **Build Release APK**
-    ```bash
-    flutter build apk --release
-    ```
+```bash
+git clone https://github.com/Shovon021/Get-Your-Salami.git
+cd Get-Your-Salami
+flutter pub get
+flutter run
+```
 
 ---
 
@@ -82,13 +88,11 @@
 
 <div align="center">
   <h3><b>Adnan Al Mim</b></h3>
-  <p><i>Flutter Developer & UI/UX Enthusiast</i></p>
+  <p><i>Mobile App Developer & UI/UX Enthusiast</i></p>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm95bm95bm95bm95bm95bm95bm95bm95bm95bm95LWdpZg/LpDmM2wSt6kTm/giphy.gif" width="50">
-  <br>
-  <sub>Built with ❤️ in Flutter</sub>
+  <sub>Built with ❤️ using Flutter</sub>
 </div>

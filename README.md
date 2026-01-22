@@ -87,7 +87,8 @@ flutter run
 ## 👨‍💻 Developed By
 
 <div align="center">
-  <h3><b>Adnan Al Mim</b></h3>
+  <h3><b>Built by Sarfaraz Ahamed Shovon</b></h3>
+  <p><i>for <b>Adnan Al Mim</b></i></p>
   <p><i>Mobile App Developer & UI/UX Enthusiast</i></p>
 </div>
 
